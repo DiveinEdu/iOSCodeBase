@@ -1,0 +1,522 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		182F9AA01B6DAA15001BFEBC /* UIView+DVIUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 182F9A9F1B6DAA15001BFEBC /* UIView+DVIUtils.m */; };
+		182F9ADA1B6DFABE001BFEBC /* DVIRuntime.m in Sources */ = {isa = PBXBuildFile; fileRef = 182F9AD91B6DFABE001BFEBC /* DVIRuntime.m */; };
+		182F9ADE1B6E1B0F001BFEBC /* DVISimpleRefreshView.m in Sources */ = {isa = PBXBuildFile; fileRef = 182F9ADD1B6E1B0F001BFEBC /* DVISimpleRefreshView.m */; };
+		185A9F2B1B75DAA400EDD139 /* DVILog.m in Sources */ = {isa = PBXBuildFile; fileRef = 185A9F2A1B75DAA400EDD139 /* DVILog.m */; };
+		185A9F2D1B75EC8500EDD139 /* DVIRefresh.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 185A9F2C1B75EC8500EDD139 /* DVIRefresh.xcassets */; };
+		185ACF9E1B6BA562000715ED /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 185ACF9D1B6BA562000715ED /* main.m */; };
+		185ACFA11B6BA562000715ED /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 185ACFA01B6BA562000715ED /* AppDelegate.m */; };
+		185ACFA41B6BA562000715ED /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 185ACFA31B6BA562000715ED /* ViewController.m */; };
+		185ACFA71B6BA562000715ED /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 185ACFA51B6BA562000715ED /* Main.storyboard */; };
+		185ACFA91B6BA562000715ED /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 185ACFA81B6BA562000715ED /* Images.xcassets */; };
+		185ACFAC1B6BA562000715ED /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 185ACFAA1B6BA562000715ED /* LaunchScreen.xib */; };
+		185ACFB81B6BA562000715ED /* DVIRefreshTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 185ACFB71B6BA562000715ED /* DVIRefreshTests.m */; };
+		185ACFC41B6BA5F8000715ED /* DVIBaseRefreshView.m in Sources */ = {isa = PBXBuildFile; fileRef = 185ACFC31B6BA5F8000715ED /* DVIBaseRefreshView.m */; };
+		185ACFC71B6BA61B000715ED /* DVIRefreshView.m in Sources */ = {isa = PBXBuildFile; fileRef = 185ACFC61B6BA61B000715ED /* DVIRefreshView.m */; };
+		185ACFCA1B6BA7CB000715ED /* UIScrollView+DVIRefresh.m in Sources */ = {isa = PBXBuildFile; fileRef = 185ACFC91B6BA7CB000715ED /* UIScrollView+DVIRefresh.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		185ACFB21B6BA562000715ED /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 185ACF901B6BA562000715ED /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 185ACF971B6BA562000715ED;
+			remoteInfo = DVIRefresh;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		182F9A9E1B6DAA15001BFEBC /* UIView+DVIUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+DVIUtils.h"; sourceTree = "<group>"; };
+		182F9A9F1B6DAA15001BFEBC /* UIView+DVIUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+DVIUtils.m"; sourceTree = "<group>"; };
+		182F9AD81B6DFABE001BFEBC /* DVIRuntime.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DVIRuntime.h; sourceTree = "<group>"; };
+		182F9AD91B6DFABE001BFEBC /* DVIRuntime.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DVIRuntime.m; sourceTree = "<group>"; };
+		182F9ADC1B6E1B0F001BFEBC /* DVISimpleRefreshView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DVISimpleRefreshView.h; sourceTree = "<group>"; };
+		182F9ADD1B6E1B0F001BFEBC /* DVISimpleRefreshView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DVISimpleRefreshView.m; sourceTree = "<group>"; };
+		185A9F291B75DAA400EDD139 /* DVILog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DVILog.h; sourceTree = "<group>"; };
+		185A9F2A1B75DAA400EDD139 /* DVILog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DVILog.m; sourceTree = "<group>"; };
+		185A9F2C1B75EC8500EDD139 /* DVIRefresh.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = DVIRefresh.xcassets; sourceTree = "<group>"; };
+		185ACF981B6BA562000715ED /* DVIRefresh.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DVIRefresh.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		185ACF9C1B6BA562000715ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		185ACF9D1B6BA562000715ED /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		185ACF9F1B6BA562000715ED /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		185ACFA01B6BA562000715ED /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		185ACFA21B6BA562000715ED /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		185ACFA31B6BA562000715ED /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		185ACFA61B6BA562000715ED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		185ACFA81B6BA562000715ED /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		185ACFAB1B6BA562000715ED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		185ACFB11B6BA562000715ED /* DVIRefreshTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DVIRefreshTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		185ACFB61B6BA562000715ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		185ACFB71B6BA562000715ED /* DVIRefreshTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DVIRefreshTests.m; sourceTree = "<group>"; };
+		185ACFC21B6BA5F8000715ED /* DVIBaseRefreshView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DVIBaseRefreshView.h; sourceTree = "<group>"; };
+		185ACFC31B6BA5F8000715ED /* DVIBaseRefreshView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DVIBaseRefreshView.m; sourceTree = "<group>"; };
+		185ACFC51B6BA61B000715ED /* DVIRefreshView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DVIRefreshView.h; sourceTree = "<group>"; };
+		185ACFC61B6BA61B000715ED /* DVIRefreshView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DVIRefreshView.m; sourceTree = "<group>"; };
+		185ACFC81B6BA7CB000715ED /* UIScrollView+DVIRefresh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+DVIRefresh.h"; sourceTree = "<group>"; };
+		185ACFC91B6BA7CB000715ED /* UIScrollView+DVIRefresh.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+DVIRefresh.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		185ACF951B6BA562000715ED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		185ACFAE1B6BA562000715ED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		182F9A9D1B6DAA15001BFEBC /* UIView+DVIUtils */ = {
+			isa = PBXGroup;
+			children = (
+				182F9A9E1B6DAA15001BFEBC /* UIView+DVIUtils.h */,
+				182F9A9F1B6DAA15001BFEBC /* UIView+DVIUtils.m */,
+			);
+			name = "UIView+DVIUtils";
+			path = "../../DVIViewUtils/DVIViewUtils/UIView+DVIUtils";
+			sourceTree = "<group>";
+		};
+		182F9AD71B6DFABE001BFEBC /* DVIRuntime */ = {
+			isa = PBXGroup;
+			children = (
+				182F9AD81B6DFABE001BFEBC /* DVIRuntime.h */,
+				182F9AD91B6DFABE001BFEBC /* DVIRuntime.m */,
+			);
+			name = DVIRuntime;
+			path = ../../DVIRuntime/DVIRuntime/DVIRuntime;
+			sourceTree = "<group>";
+		};
+		182F9ADB1B6E188C001BFEBC /* DVIRefreshSubclass */ = {
+			isa = PBXGroup;
+			children = (
+				182F9ADC1B6E1B0F001BFEBC /* DVISimpleRefreshView.h */,
+				182F9ADD1B6E1B0F001BFEBC /* DVISimpleRefreshView.m */,
+			);
+			path = DVIRefreshSubclass;
+			sourceTree = "<group>";
+		};
+		185A9F281B75DAA400EDD139 /* DVILog */ = {
+			isa = PBXGroup;
+			children = (
+				185A9F291B75DAA400EDD139 /* DVILog.h */,
+				185A9F2A1B75DAA400EDD139 /* DVILog.m */,
+			);
+			name = DVILog;
+			path = ../../DVILog/DVILog/DVILog;
+			sourceTree = "<group>";
+		};
+		185ACF8F1B6BA562000715ED = {
+			isa = PBXGroup;
+			children = (
+				185ACF9A1B6BA562000715ED /* DVIRefresh */,
+				185ACFB41B6BA562000715ED /* DVIRefreshTests */,
+				185ACF991B6BA562000715ED /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		185ACF991B6BA562000715ED /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				185ACF981B6BA562000715ED /* DVIRefresh.app */,
+				185ACFB11B6BA562000715ED /* DVIRefreshTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		185ACF9A1B6BA562000715ED /* DVIRefresh */ = {
+			isa = PBXGroup;
+			children = (
+				185A9F281B75DAA400EDD139 /* DVILog */,
+				182F9AD71B6DFABE001BFEBC /* DVIRuntime */,
+				182F9A9D1B6DAA15001BFEBC /* UIView+DVIUtils */,
+				185ACFC11B6BA589000715ED /* DVIRefresh */,
+				185ACF9F1B6BA562000715ED /* AppDelegate.h */,
+				185ACFA01B6BA562000715ED /* AppDelegate.m */,
+				185ACFA21B6BA562000715ED /* ViewController.h */,
+				185ACFA31B6BA562000715ED /* ViewController.m */,
+				185ACFA51B6BA562000715ED /* Main.storyboard */,
+				185ACFA81B6BA562000715ED /* Images.xcassets */,
+				185ACFAA1B6BA562000715ED /* LaunchScreen.xib */,
+				185ACF9B1B6BA562000715ED /* Supporting Files */,
+			);
+			path = DVIRefresh;
+			sourceTree = "<group>";
+		};
+		185ACF9B1B6BA562000715ED /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				185ACF9C1B6BA562000715ED /* Info.plist */,
+				185ACF9D1B6BA562000715ED /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		185ACFB41B6BA562000715ED /* DVIRefreshTests */ = {
+			isa = PBXGroup;
+			children = (
+				185ACFB71B6BA562000715ED /* DVIRefreshTests.m */,
+				185ACFB51B6BA562000715ED /* Supporting Files */,
+			);
+			path = DVIRefreshTests;
+			sourceTree = "<group>";
+		};
+		185ACFB51B6BA562000715ED /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				185ACFB61B6BA562000715ED /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		185ACFC11B6BA589000715ED /* DVIRefresh */ = {
+			isa = PBXGroup;
+			children = (
+				182F9ADB1B6E188C001BFEBC /* DVIRefreshSubclass */,
+				185ACFC21B6BA5F8000715ED /* DVIBaseRefreshView.h */,
+				185ACFC31B6BA5F8000715ED /* DVIBaseRefreshView.m */,
+				185ACFC51B6BA61B000715ED /* DVIRefreshView.h */,
+				185ACFC61B6BA61B000715ED /* DVIRefreshView.m */,
+				185ACFC81B6BA7CB000715ED /* UIScrollView+DVIRefresh.h */,
+				185ACFC91B6BA7CB000715ED /* UIScrollView+DVIRefresh.m */,
+				185A9F2C1B75EC8500EDD139 /* DVIRefresh.xcassets */,
+			);
+			path = DVIRefresh;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		185ACF971B6BA562000715ED /* DVIRefresh */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 185ACFBB1B6BA562000715ED /* Build configuration list for PBXNativeTarget "DVIRefresh" */;
+			buildPhases = (
+				185ACF941B6BA562000715ED /* Sources */,
+				185ACF951B6BA562000715ED /* Frameworks */,
+				185ACF961B6BA562000715ED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DVIRefresh;
+			productName = DVIRefresh;
+			productReference = 185ACF981B6BA562000715ED /* DVIRefresh.app */;
+			productType = "com.apple.product-type.application";
+		};
+		185ACFB01B6BA562000715ED /* DVIRefreshTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 185ACFBE1B6BA562000715ED /* Build configuration list for PBXNativeTarget "DVIRefreshTests" */;
+			buildPhases = (
+				185ACFAD1B6BA562000715ED /* Sources */,
+				185ACFAE1B6BA562000715ED /* Frameworks */,
+				185ACFAF1B6BA562000715ED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				185ACFB31B6BA562000715ED /* PBXTargetDependency */,
+			);
+			name = DVIRefreshTests;
+			productName = DVIRefreshTests;
+			productReference = 185ACFB11B6BA562000715ED /* DVIRefreshTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		185ACF901B6BA562000715ED /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = "戴维营教育";
+				TargetAttributes = {
+					185ACF971B6BA562000715ED = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					185ACFB01B6BA562000715ED = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 185ACF971B6BA562000715ED;
+					};
+				};
+			};
+			buildConfigurationList = 185ACF931B6BA562000715ED /* Build configuration list for PBXProject "DVIRefresh" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 185ACF8F1B6BA562000715ED;
+			productRefGroup = 185ACF991B6BA562000715ED /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				185ACF971B6BA562000715ED /* DVIRefresh */,
+				185ACFB01B6BA562000715ED /* DVIRefreshTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		185ACF961B6BA562000715ED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				185ACFA71B6BA562000715ED /* Main.storyboard in Resources */,
+				185A9F2D1B75EC8500EDD139 /* DVIRefresh.xcassets in Resources */,
+				185ACFAC1B6BA562000715ED /* LaunchScreen.xib in Resources */,
+				185ACFA91B6BA562000715ED /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		185ACFAF1B6BA562000715ED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		185ACF941B6BA562000715ED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				185ACFA41B6BA562000715ED /* ViewController.m in Sources */,
+				185ACFC71B6BA61B000715ED /* DVIRefreshView.m in Sources */,
+				182F9ADE1B6E1B0F001BFEBC /* DVISimpleRefreshView.m in Sources */,
+				185ACFA11B6BA562000715ED /* AppDelegate.m in Sources */,
+				182F9AA01B6DAA15001BFEBC /* UIView+DVIUtils.m in Sources */,
+				185ACF9E1B6BA562000715ED /* main.m in Sources */,
+				185A9F2B1B75DAA400EDD139 /* DVILog.m in Sources */,
+				185ACFC41B6BA5F8000715ED /* DVIBaseRefreshView.m in Sources */,
+				182F9ADA1B6DFABE001BFEBC /* DVIRuntime.m in Sources */,
+				185ACFCA1B6BA7CB000715ED /* UIScrollView+DVIRefresh.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		185ACFAD1B6BA562000715ED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				185ACFB81B6BA562000715ED /* DVIRefreshTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		185ACFB31B6BA562000715ED /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 185ACF971B6BA562000715ED /* DVIRefresh */;
+			targetProxy = 185ACFB21B6BA562000715ED /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		185ACFA51B6BA562000715ED /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				185ACFA61B6BA562000715ED /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		185ACFAA1B6BA562000715ED /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				185ACFAB1B6BA562000715ED /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		185ACFB91B6BA562000715ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		185ACFBA1B6BA562000715ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		185ACFBC1B6BA562000715ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DVIRefresh/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		185ACFBD1B6BA562000715ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DVIRefresh/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		185ACFBF1B6BA562000715ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = DVIRefreshTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DVIRefresh.app/DVIRefresh";
+			};
+			name = Debug;
+		};
+		185ACFC01B6BA562000715ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = DVIRefreshTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DVIRefresh.app/DVIRefresh";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		185ACF931B6BA562000715ED /* Build configuration list for PBXProject "DVIRefresh" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				185ACFB91B6BA562000715ED /* Debug */,
+				185ACFBA1B6BA562000715ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		185ACFBB1B6BA562000715ED /* Build configuration list for PBXNativeTarget "DVIRefresh" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				185ACFBC1B6BA562000715ED /* Debug */,
+				185ACFBD1B6BA562000715ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		185ACFBE1B6BA562000715ED /* Build configuration list for PBXNativeTarget "DVIRefreshTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				185ACFBF1B6BA562000715ED /* Debug */,
+				185ACFC01B6BA562000715ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 185ACF901B6BA562000715ED /* Project object */;
+}
