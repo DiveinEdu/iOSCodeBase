@@ -71,8 +71,8 @@ const CGFloat DVIRefreshHorizontalWidthDefault = 50.0;
 }
 
 - (void)removeObservers {
-    DVIRemoveObserver(_scrollView, self, DVIRefreshKeyPathContentOffset);
-    DVIRemoveObserver(_scrollView, self, DVIRefreshKeyPathContentSize);
+    DVIRemoveObserver(self.superview, self, DVIRefreshKeyPathContentOffset);
+    DVIRemoveObserver(self.superview, self, DVIRefreshKeyPathContentSize);
 }
 
 - (void)observeValueForKeyPath:(NSString *)keyPath ofObject:(id)object change:(NSDictionary *)change context:(void *)context {

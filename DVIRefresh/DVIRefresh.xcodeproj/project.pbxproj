@@ -22,6 +22,7 @@
 		185ACFC41B6BA5F8000715ED /* DVIBaseRefreshView.m in Sources */ = {isa = PBXBuildFile; fileRef = 185ACFC31B6BA5F8000715ED /* DVIBaseRefreshView.m */; };
 		185ACFC71B6BA61B000715ED /* DVIRefreshView.m in Sources */ = {isa = PBXBuildFile; fileRef = 185ACFC61B6BA61B000715ED /* DVIRefreshView.m */; };
 		185ACFCA1B6BA7CB000715ED /* UIScrollView+DVIRefresh.m in Sources */ = {isa = PBXBuildFile; fileRef = 185ACFC91B6BA7CB000715ED /* UIScrollView+DVIRefresh.m */; };
+		186D6F541B84C1160025182F /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 186D6F531B84C1160025182F /* SecondViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +64,8 @@
 		185ACFC61B6BA61B000715ED /* DVIRefreshView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DVIRefreshView.m; sourceTree = "<group>"; };
 		185ACFC81B6BA7CB000715ED /* UIScrollView+DVIRefresh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+DVIRefresh.h"; sourceTree = "<group>"; };
 		185ACFC91B6BA7CB000715ED /* UIScrollView+DVIRefresh.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+DVIRefresh.m"; sourceTree = "<group>"; };
+		186D6F521B84C1160025182F /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		186D6F531B84C1160025182F /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -151,6 +154,8 @@
 				185ACFA01B6BA562000715ED /* AppDelegate.m */,
 				185ACFA21B6BA562000715ED /* ViewController.h */,
 				185ACFA31B6BA562000715ED /* ViewController.m */,
+				186D6F521B84C1160025182F /* SecondViewController.h */,
+				186D6F531B84C1160025182F /* SecondViewController.m */,
 				185ACFA51B6BA562000715ED /* Main.storyboard */,
 				185ACFA81B6BA562000715ED /* Images.xcassets */,
 				185ACFAA1B6BA562000715ED /* LaunchScreen.xib */,
@@ -309,6 +314,7 @@
 				185ACF9E1B6BA562000715ED /* main.m in Sources */,
 				185A9F2B1B75DAA400EDD139 /* DVILog.m in Sources */,
 				185ACFC41B6BA5F8000715ED /* DVIBaseRefreshView.m in Sources */,
+				186D6F541B84C1160025182F /* SecondViewController.m in Sources */,
 				182F9ADA1B6DFABE001BFEBC /* DVIRuntime.m in Sources */,
 				185ACFCA1B6BA7CB000715ED /* UIScrollView+DVIRefresh.m in Sources */,
 			);

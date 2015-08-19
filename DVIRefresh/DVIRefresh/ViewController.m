@@ -45,7 +45,7 @@
         [self performSelector:@selector(finished) withObject:nil afterDelay:3];
     }];
     footerView.backgroundColor = [UIColor greenColor];
-    scrollView1.footerView = footerView;
+//    scrollView1.footerView = footerView;
     
 #if 0
     UIScrollView *scrollView2 = [[UIScrollView alloc] initWithFrame:CGRectMake(110, 0, 200, 100)];
@@ -69,6 +69,10 @@
 
 - (void)finished {
     [_scrollView endRefresh];
+    
+    UIStoryboard *sb = [UIStoryboard storyboardWithName:@"Main" bundle:nil];
+    UIViewController *viewCtrl = [sb instantiateViewControllerWithIdentifier:@"secondCtrl"];
+    [self presentViewController:viewCtrl animated:YES completion:nil];
 }
 
 - (void)didReceiveMemoryWarning {

@@ -101,8 +101,6 @@
     }
     
     [self updateImageView];
-    
-    DVILog(@"%@", _stateLabel.text);
 }
 
 //- (void)endRefresh {
