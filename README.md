@@ -9,7 +9,7 @@ iOSCodeBase中的每一个项目都是可以独立运行，其中框架位于每
 
 1. [DVIRuntime](./DVIRuntime) Objective-C运行时的一些常用方法的封装
 2. [DVIViewUtils](./DVIViewUtils) UIView的一些简单工具方法
-3. [DVIRefresh](./DVIRefresh) 上拉刷新和下拉加载更多的控件，具有多种形态。
+3. [DVIRefresh](./DVIRefresh) 上拉刷新和下拉加载更多的控件，具有多种形态。并且支持横向刷新。
 4. [DVILog](./DVILog) 简单的日志方法
 
 # Contact

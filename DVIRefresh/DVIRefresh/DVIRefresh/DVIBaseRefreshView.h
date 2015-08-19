@@ -65,6 +65,9 @@ typedef void(^DVIRefreshTriggeredBlock)();
 
 @property (nonatomic, weak) UIScrollView *scrollView;
 
+/*更新时间*/
+@property (nonatomic, copy, readonly) NSString *lastUpdateTime;
+
 /*达到触发状态的百分比，用于简化透明度变化等动画*/
 @property (nonatomic, assign, readonly) CGFloat percent;
 

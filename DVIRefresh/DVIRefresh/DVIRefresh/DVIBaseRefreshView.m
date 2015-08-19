@@ -307,4 +307,5 @@ const CGFloat DVIRefreshHorizontalWidthDefault = 50.0;
 - (void)willTrigger {}
 - (void)didTriggered {}
 - (void)didEndScroll {}
+
 @end
