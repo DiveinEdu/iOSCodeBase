@@ -33,8 +33,12 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="20F-Rf-kvd">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                                <color key="backgroundColor" red="0.1315013112" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                            </scrollView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9U2-cy-tkq">
-                                <rect key="frame" x="69" y="42" width="46" height="30"/>
+                                <rect key="frame" x="0.0" y="74" width="46" height="30"/>
                                 <state key="normal" title="Button">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -42,12 +46,14 @@
                                     <action selector="didClicked:" destination="LgK-7j-6Dx" eventType="touchUpInside" id="s6l-sz-NUe"/>
                                 </connections>
                             </button>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="20F-Rf-kvd">
-                                <rect key="frame" x="16" y="101" width="262" height="168"/>
-                                <color key="backgroundColor" red="0.1315013112" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                            </scrollView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="20F-Rf-kvd" secondAttribute="trailing" id="gQc-27-byS"/>
+                            <constraint firstItem="o2a-gf-Qaq" firstAttribute="top" secondItem="20F-Rf-kvd" secondAttribute="bottom" id="m7L-ai-eMY"/>
+                            <constraint firstItem="20F-Rf-kvd" firstAttribute="top" secondItem="n5Q-Bs-rKI" secondAttribute="top" id="v8e-hH-ZYs"/>
+                            <constraint firstItem="20F-Rf-kvd" firstAttribute="leading" secondItem="n5Q-Bs-rKI" secondAttribute="leading" id="yfH-3T-yAp"/>
+                        </constraints>
                     </view>
                     <connections>
                         <outlet property="scrollView" destination="20F-Rf-kvd" id="Kjk-aG-ffE"/>

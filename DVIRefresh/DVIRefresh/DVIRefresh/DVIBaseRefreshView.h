@@ -55,6 +55,9 @@ typedef void(^DVIRefreshTriggeredBlock)();
 @end
 
 @interface DVIBaseRefreshView : UIView
+{
+
+}
 
 @property (nonatomic, assign, readonly) DVIRefreshState state;
 @property (nonatomic, assign, readonly) DVIRefreshPosition position;

@@ -39,12 +39,12 @@
     headerView.backgroundColor = [UIColor redColor];
     scrollView1.headerView = headerView;
     
-    DVISimpleRefreshView *footerView = [DVISimpleRefreshView refreshViewWithPosition:DVIRefreshPositionFooter direction:DVIRefreshDirectionVertical block:^{
-        NSLog(@"load more triggered");
-        
-        [self performSelector:@selector(finished) withObject:nil afterDelay:3];
-    }];
-    footerView.backgroundColor = [UIColor greenColor];
+//    DVISimpleRefreshView *footerView = [DVISimpleRefreshView refreshViewWithPosition:DVIRefreshPositionFooter direction:DVIRefreshDirectionVertical block:^{
+//        NSLog(@"load more triggered");
+//        
+//        [self performSelector:@selector(finished) withObject:nil afterDelay:3];
+//    }];
+//    footerView.backgroundColor = [UIColor greenColor];
 //    scrollView1.footerView = footerView;
     
 #if 0
@@ -72,7 +72,9 @@
     
     UIStoryboard *sb = [UIStoryboard storyboardWithName:@"Main" bundle:nil];
     UIViewController *viewCtrl = [sb instantiateViewControllerWithIdentifier:@"secondCtrl"];
-    [self presentViewController:viewCtrl animated:YES completion:nil];
+    
+    UINavigationController *navCtrl = [[UINavigationController alloc] initWithRootViewController:viewCtrl];
+    [self presentViewController:navCtrl animated:YES completion:nil];
 }
 
 - (void)didReceiveMemoryWarning {
