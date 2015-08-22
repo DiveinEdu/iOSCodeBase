@@ -20,7 +20,9 @@
 
 - (instancetype)initWithFrame:(CGRect)frame {
     if (self = [super initWithFrame:frame]) {
-        _imageView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"arrow"]];
+        NSString *path = [[NSBundle mainBundle] pathForResource:@"arrow@2x" ofType:@"png" inDirectory:@"DVIRefresh.bundle"];
+        
+        _imageView = [[UIImageView alloc] initWithImage:[UIImage imageWithContentsOfFile:path]];
         [self addSubview:_imageView];
         
         _indicatorView = [[UIActivityIndicatorView alloc] initWithActivityIndicatorStyle:UIActivityIndicatorViewStyleGray];

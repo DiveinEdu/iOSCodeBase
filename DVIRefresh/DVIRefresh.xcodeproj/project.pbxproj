@@ -11,7 +11,6 @@
 		182F9ADA1B6DFABE001BFEBC /* DVIRuntime.m in Sources */ = {isa = PBXBuildFile; fileRef = 182F9AD91B6DFABE001BFEBC /* DVIRuntime.m */; };
 		182F9ADE1B6E1B0F001BFEBC /* DVISimpleRefreshView.m in Sources */ = {isa = PBXBuildFile; fileRef = 182F9ADD1B6E1B0F001BFEBC /* DVISimpleRefreshView.m */; };
 		185A9F2B1B75DAA400EDD139 /* DVILog.m in Sources */ = {isa = PBXBuildFile; fileRef = 185A9F2A1B75DAA400EDD139 /* DVILog.m */; };
-		185A9F2D1B75EC8500EDD139 /* DVIRefresh.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 185A9F2C1B75EC8500EDD139 /* DVIRefresh.xcassets */; };
 		185ACF9E1B6BA562000715ED /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 185ACF9D1B6BA562000715ED /* main.m */; };
 		185ACFA11B6BA562000715ED /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 185ACFA01B6BA562000715ED /* AppDelegate.m */; };
 		185ACFA41B6BA562000715ED /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 185ACFA31B6BA562000715ED /* ViewController.m */; };
@@ -23,6 +22,7 @@
 		185ACFC71B6BA61B000715ED /* DVIRefreshView.m in Sources */ = {isa = PBXBuildFile; fileRef = 185ACFC61B6BA61B000715ED /* DVIRefreshView.m */; };
 		185ACFCA1B6BA7CB000715ED /* UIScrollView+DVIRefresh.m in Sources */ = {isa = PBXBuildFile; fileRef = 185ACFC91B6BA7CB000715ED /* UIScrollView+DVIRefresh.m */; };
 		186D6F541B84C1160025182F /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 186D6F531B84C1160025182F /* SecondViewController.m */; };
+		18E30E851B880DE80085DFDA /* DVIRefresh.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 18E30E841B880DE80085DFDA /* DVIRefresh.bundle */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,7 +44,6 @@
 		182F9ADD1B6E1B0F001BFEBC /* DVISimpleRefreshView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DVISimpleRefreshView.m; sourceTree = "<group>"; };
 		185A9F291B75DAA400EDD139 /* DVILog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DVILog.h; sourceTree = "<group>"; };
 		185A9F2A1B75DAA400EDD139 /* DVILog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DVILog.m; sourceTree = "<group>"; };
-		185A9F2C1B75EC8500EDD139 /* DVIRefresh.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = DVIRefresh.xcassets; sourceTree = "<group>"; };
 		185ACF981B6BA562000715ED /* DVIRefresh.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DVIRefresh.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		185ACF9C1B6BA562000715ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		185ACF9D1B6BA562000715ED /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -66,6 +65,7 @@
 		185ACFC91B6BA7CB000715ED /* UIScrollView+DVIRefresh.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+DVIRefresh.m"; sourceTree = "<group>"; };
 		186D6F521B84C1160025182F /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
 		186D6F531B84C1160025182F /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		18E30E841B880DE80085DFDA /* DVIRefresh.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = DVIRefresh.bundle; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -200,7 +200,7 @@
 				185ACFC61B6BA61B000715ED /* DVIRefreshView.m */,
 				185ACFC81B6BA7CB000715ED /* UIScrollView+DVIRefresh.h */,
 				185ACFC91B6BA7CB000715ED /* UIScrollView+DVIRefresh.m */,
-				185A9F2C1B75EC8500EDD139 /* DVIRefresh.xcassets */,
+				18E30E841B880DE80085DFDA /* DVIRefresh.bundle */,
 			);
 			path = DVIRefresh;
 			sourceTree = "<group>";
@@ -286,9 +286,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				185ACFA71B6BA562000715ED /* Main.storyboard in Resources */,
-				185A9F2D1B75EC8500EDD139 /* DVIRefresh.xcassets in Resources */,
 				185ACFAC1B6BA562000715ED /* LaunchScreen.xib in Resources */,
 				185ACFA91B6BA562000715ED /* Images.xcassets in Resources */,
+				18E30E851B880DE80085DFDA /* DVIRefresh.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
