@@ -309,6 +309,6 @@ const CGFloat DVIRefreshHorizontalWidthDefault = 50.0;
 - (void)didEndScroll {}
 
 - (void)dealloc {
-    NSLog(@"%s", __PRETTY_FUNCTION__);
+//    NSLog(@"%s", __PRETTY_FUNCTION__);
 }
 @end
